@@ -1,0 +1,72 @@
+*{
+	margin:0%;
+}
+.navbar{
+	padding: 1.8%;
+}
+.navbar a{
+	text-decoration: none;
+	font-size: 17px;
+	color: black;
+	margin-left: 4%;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.logo{
+	margin: 0% 4% !important;	
+}
+#signin{
+	background-color: #00baf2;
+	color: white;
+	border-radius: 25px;
+	padding: 0.4% 0.7%;
+	margin-left: 8%;
+	margin-top: 4%;
+}
+.wallet{
+	background-color:#f6f6f6;
+	text-align: center;
+	padding: 1%;
+}
+.sec2{
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 0% 5% 5%;
+	margin-top: 2%;
+}
+.UPI{
+	margin-left: 3%;
+}
+.UPI p{
+	font-size: 24px;
+	font-weight: normal;
+	margin-left: 3%;
+}
+.UPI h1{
+	margin-left: 3%;
+}
+#app{
+	border: 1px solid black;
+	width: 40%;
+	border-radius: 23px;
+	padding: 2%;
+	background-color: black;
+	color: white;
+	font-size: 17px;
+	margin-left: 4%;
+	margin-top:6%;		
+}
+#app:hover{
+	background-color: white;
+	color: black;
+}
+#app i{
+	margin: 0% 2%;
+}
+.one{
+	margin-top: 5%;
+}
+.two{
+	margin-top: 6%;
+}
+
