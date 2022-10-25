@@ -146,6 +146,7 @@
 	display: flex;
 	justify-content: center;
 	border: 1px solid white;
+	padding-top: 2%;
 }
 
 #h3{
@@ -153,7 +154,7 @@
 }
 #appp{
 	border: 1px solid black;
-	width: 40%;
+	width: 58%;
 	border-radius: 23px;
 	padding: 2%;
 	background-color: black;
@@ -166,7 +167,90 @@
 	background-color: white;
 	color: black;
 }
+#appp i{
+	margin: 0% 2%;
+}
 .i19{
 	padding-left: 10%;
 	padding-bottom:5%;
 }
+.sec{
+	background-color:rgba(239,239,239,0.6);
+	padding: 6%;
+
+}
+.sec6{
+	display: flex;
+	justify-content: center;
+	border: 1px solid white;
+	padding-top: 6%;
+	margin-top: 5%;
+}
+#app3{
+	border: 1px solid black;
+	width: 58%;
+	border-radius: 23px;
+	padding: 3%;
+	background-color: black;
+	color: white;
+	font-size: 17px;
+	margin-left: 4%;
+	margin-top:6%;		
+}
+#app3:hover{
+	background-color: white;
+	color: black;
+}
+#app3 i{
+	margin: 0% 2%;
+}
+
+.sec7{
+	display: flex;
+	justify-content: center;
+	border: 1px solid white;
+	padding-top: 2%;
+	margin-top: 5%;
+	border-width: 50%;
+}
+#app4{
+	border: 1px solid black;
+	width: 20%;
+	border-radius: 23px;
+	padding: 3%;
+	background-color:#002970 ;
+	color:white;
+	font-size: 17px;
+	margin-left: 4%;
+	margin-top:6%;	
+	font-weight: bold;	
+}
+#app4:hover{
+	background-color:#00adf2 ;
+	color: white;
+}
+.i20{
+	margin-right:7%;
+	margin-bottom: 5%;
+}
+.sec8{
+	display: flex;
+	justify-content: center;
+	border: 1px solid white;
+	padding-top: 2%;
+	margin-top: 5%;
+	border-width: 50%;
+	justify-content: space-evenly;}
+.prakash8{
+	border: 1px solid white;
+	width: 40%;
+	margin-left: 0%;	
+}
+.sec11{
+	display: flex;
+	justify-content:space-around;
+	border: 1px solid whitesmoke;
+	padding-top: 2%;
+	margin-top: 4%;
+}
+
