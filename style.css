@@ -443,11 +443,30 @@
 	justify-content: center;
 }
 .sec21{
-	padding-top: 13%;
+	padding:15% 10% 3% 10%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5%;
 }
 .sec21div1{
-	padding-top: 7%;
-	padding-left: 13%;
+	padding-left: 5%;
+}
+.sec21 div{
+	background-color: #00baf2;
+	margin: 0% 1%;
+	text-align: center;
+	color: white;
+	border-radius: 8%;
+}
+.sec21 img{
+	margin-top: 4%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	width: 80%;
+}
+.sec21 h1{
+	opacity: 100%;
 }
 
 
