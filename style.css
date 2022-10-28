@@ -1,5 +1,6 @@
 *{
 	margin:0%;
+	border: 1px solid red;
 }
 .navbar{
 	padding: 1.8%;
@@ -65,6 +66,10 @@
 }
 .one{
 	margin-top: 5%;
+	font-size: 60px;
+}
+.two2{
+	font-size: 60px;
 }
 .two{
 	margin-top: 6%;
@@ -84,8 +89,8 @@
 }
 .div3{
 	display: flex;
-	justify-content: space-around;
-	padding: 4% 4% 4%;
+	justify-content: space-between;
+	padding: 4%;
 	margin-left: 4%;
 	font-weight: bold;
 	text-decoration: none;
@@ -98,35 +103,14 @@
 	text-decoration: none;
 	color: white;
 }
-.head3{
-	
-	padding-top: 4%;
-	padding-left: 7%;
-	text-align: left;
-	font-size: 35px;
-	color: white;
-}
+
 .sec4{
-	margin-top: 0%;
-	margin-bottom: 0%;
 	background-color: #2b54a6;
 }
-.div4{
-	display: flex;
-	justify-content: space-around;
-	padding:  4% 4% 4%;
-	margin-left: 4%;
-	font-weight: bold;
-	text-decoration: none;
-	color: black;
-	font-size: 18px;
-	line-height: 30px;	
-	font-family: 'Poppins', sans-serif;
+.sec4 a{
+	width: 10%;
 }
-.div4 a{
-	text-decoration: none;
-	color: white;	
-}
+
 #h3{
 	margin-top: 8% ;
 	margin-left: 10%;
@@ -147,6 +131,9 @@
 	justify-content: center;
 	border: 1px solid white;
 	padding-top: 2%;
+}
+#sec1id{
+	font-size: 40px;
 }
 
 #h3{
@@ -176,7 +163,7 @@
 }
 .sec{
 	background-color:rgba(239,239,239,0.6);
-	padding: 6%;
+	padding: 4% 12%;
 
 }
 .sec6{
@@ -235,16 +222,14 @@
 }
 .sec8{
 	display: flex;
-	justify-content: center;
-	border: 1px solid white;
 	padding-top: 2%;
 	margin-top: 5%;
-	border-width: 50%;
-	justify-content: space-evenly;}
+	justify-content: space-between;
+}
 .prakash8{
-	border: 1px solid white;
 	width: 40%;
-	margin-left: 0%;	
+	padding: 3%;
+	background-color: white;
 }
 .sec11{
 	display: flex;
@@ -257,7 +242,7 @@
 }
 .section15{
 	padding-top: 10%;
-	border: 1px solid red;
+	border: 1px solid white;
 	background-image: url(images/33.png);	
 	display: flex;
 	padding-left: 10%;
@@ -286,7 +271,7 @@
 }
 .sec16{
 	margin-top: 6%;
-	border: 1px solid red;
+	border: 1px solid white;
 	display: flex;
 	padding: 5% 7% 5% 7%; 
 }
@@ -317,7 +302,7 @@
 }
 .section17{
 	padding:3% 5% 4% 8%;
-	border: 1px solid red;
+	border: 1px solid white;
 	background-color: rgba(239,239,239,0.6);	
 	display: flex;
 	padding-left: 10%;
@@ -353,7 +338,7 @@
 }
 .sec18{
 	margin-top: 6%;
-	border: 1px solid red;
+	border: 1px solid white;
 	width: 70%;
 	margin: 3% 7% ;
 	display: flex;
@@ -388,7 +373,7 @@
 }
 .sec19{
 	margin-top: 6%;
-	border: 1px solid red;
+	border: 1px solid white;
 	width: 70%;
 	margin: 3% 7% ;
 	display: flex;
@@ -499,18 +484,59 @@
 	font-size: 15px;
 }
 .sec23{
-	padding: 10% 0% 0% 8%;
 	display: flex;
+	
+	padding:4% 10%;
 	background-color: rgba(239,239,239,0.6);
-}
-.sec23 div{
-	padding: 2%;
-}
-#sec23div1{
-	padding-left:0.8%;
+	
 }
 .sec23 h1{
-	font-size: 20px;
+	width: 20%;
 }
+#sec23div1{
+	margin-left: 40%;
+	width: 20%;
+}
+#sec23div1 a{
+	margin-right: 16%;
+} 
+@media(max-width: 420px){
+	.navbar a{
+		font-size: 3.8px;
+	}
+	.one{
+		font-size: 20px;
+	}
+	.two2{
+		font-size: 20px;
+	}
+	#app{
+		width: 60%;
+		font-size: 8px;
+	}
+	.head2{
+		font-size: 17px;
+	}
+	.wallet{
+		font-size: 10px;
+	}
+	.two{
+		font-size: 11px !important;
+	}
+	.div3{
+		flex-direction: column;
+		width: 25%;
+		margin-left: 30%;
+	}
+	#h3{
+		font-size: 20px;
+	}
+	#sec1id{
+	font-size: 15px;
+}
+	
+
+}
+
 
 
