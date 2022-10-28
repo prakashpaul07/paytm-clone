@@ -1,6 +1,5 @@
 *{
 	margin:0%;
-	border: 1px solid red;
 }
 .navbar{
 	padding: 1.8%;
@@ -75,7 +74,6 @@
 	margin-top: 6%;
 }
 .head2{
-	margin-top: 3%;
 	padding-top: 4%;
 	padding-left: 7%;
 	text-align: left;
@@ -83,6 +81,7 @@
 	color: white;
 }
 .sec3{
+	text-align: center;
 	margin-top: 0%;
 	margin-bottom: 0%;
 	background-color: #00adf2;
@@ -90,7 +89,7 @@
 .div3{
 	display: flex;
 	justify-content: space-between;
-	padding: 4%;
+	padding: 6%;
 	margin-left: 4%;
 	font-weight: bold;
 	text-decoration: none;
@@ -103,13 +102,11 @@
 	text-decoration: none;
 	color: white;
 }
-
 .sec4{
+	text-align: center;
 	background-color: #2b54a6;
 }
-.sec4 a{
-	width: 10%;
-}
+
 
 #h3{
 	margin-top: 8% ;
@@ -134,6 +131,9 @@
 }
 #sec1id{
 	font-size: 40px;
+}
+#sec5id{
+	font-size: 20px;
 }
 
 #h3{
@@ -172,6 +172,12 @@
 	border: 1px solid white;
 	padding-top: 6%;
 	margin-top: 5%;
+}
+#pra3{
+	font-size: 20px;
+}
+#pra3h1{
+	font-size: 30px;
 }
 #app3{
 	border: 1px solid black;
@@ -500,13 +506,13 @@
 #sec23div1 a{
 	margin-right: 16%;
 } 
-@media(max-width: 420px){
+@media(max-width: 380px){
 	.navbar a{
 		font-size: 3.8px;
-	}
-	.one{
+    }
+ 	.one{
 		font-size: 20px;
-	}
+    }
 	.two2{
 		font-size: 20px;
 	}
@@ -525,17 +531,41 @@
 	}
 	.div3{
 		flex-direction: column;
-		width: 25%;
-		margin-left: 30%;
+		align-items: center;
+	} 
+	.sec4 img{
+		width: 38%;
 	}
 	#h3{
 		font-size: 20px;
 	}
 	#sec1id{
+		font-size: 15px;
+	}
+	.sec5p{
+	font-size: 12px;
+	}
+	#appp{
+		font-size: 6px;
+	}
+	.i19{
+		width: 30%;
+	}
+	#sec5id{
+		font-size: 13px;
+	}
+	#pra3{
+	font-size: 10px;
+	}
+	#pra3h1{
 	font-size: 15px;
-}
-	
-
+	}
+	.sec6 p{
+		font-size: 12px;
+	}
+	#app3{
+		font-size: 6px;
+	}
 }
 
 
